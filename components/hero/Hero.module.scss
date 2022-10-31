@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+@import "../../styles/breakpoints.scss";
+
+.hero {
+  background: url("../../public/hero.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+    padding: 60px 0px 60px 0px;
+  }
+  &__title {
+    color: rgba($white, 0.6);
+    font-size: 16px;
+    font-weight: 300;
+    @include bp-tablet-sm {
+      font-size: 18px;
+    }
+  }
+  &__biz {
+    color: $white;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    @include bp-tablet-sm {
+      font-size: 26px;
+    }
+  }
+  &__subtitle {
+    color: $white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    @include bp-tablet-sm {
+      font-size: 36px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "/styles/breakpoints.scss";
+@import "/styles/variables.scss";
+
+html,
+body {
+  font-family: $poppins;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
+  @include bp-tablet-sm {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  color: rgba($black, 0.5);
+}
+
+p,
+ul {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+a {
+  color: $red;
+  transition: 0.2s;
+  &:hover {
+    color: $black;
+  }
+}
