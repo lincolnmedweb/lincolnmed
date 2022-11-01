@@ -2,8 +2,11 @@ import Head from "next/head";
 
 import Hero from "../components/hero/Hero";
 import ImageTextRight from "../components/imageTextRight/ImageTextRight";
+import ImageTextLeft from "../components/imageTextLeft/ImageTextLeft";
 
 import clinicImage from "../public/our-clinic.jpg";
+import staffImage from "../public/our-staff.jpg";
+import healthImage from "../public/health-myself.jpg";
 
 export default function Home() {
   return (
@@ -32,6 +35,22 @@ export default function Home() {
         text="Lincoln Medical Centre is comprised of a team of family physicians, nurses and support staff that work together to ensure that excellent quality patient care is provided in a respectful and compassionate environment."
         btnText="Learn More"
         btnLink="/about/"
+      />
+      <ImageTextLeft
+        image={staffImage}
+        altText="Our Staff"
+        title="Our Staff"
+        text="need text"
+        btnText="View Staff"
+        btnLink="/staff/"
+      />
+      <ImageTextRight
+        image={healthImage}
+        altText="HealthMyself"
+        title="HealthMyself"
+        text="Need text"
+        btnText="HealthMyself Login"
+        btnLink="#"
       />
     </>
   );

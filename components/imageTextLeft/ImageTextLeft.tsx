@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import styles from "../imageTextRight/ImageTextRight.module.scss";
+import styles from "../ImageTextLeft/ImageTextLeft.module.scss";
 
 interface Props {
   image: any;
@@ -13,7 +13,7 @@ interface Props {
   btnLink: string;
 }
 
-const ImageTextRight: React.FC<Props> = ({
+const ImageTextLeft: React.FC<Props> = ({
   image,
   altText,
   title,
@@ -23,18 +23,18 @@ const ImageTextRight: React.FC<Props> = ({
 }) => {
   return (
     <>
-      <section className={styles.imageTextRight}>
+      <section className={styles.ImageTextLeft}>
         <Container>
           <Row>
-            <Col lg="6">
-              <Image className="img-fluid" src={image} alt={altText} />
-            </Col>
             <Col lg="6">
               <h2>{title}</h2>
               <p>{text}</p>
               <Link href={btnLink}>
                 <Button>{btnText}</Button>
               </Link>
+            </Col>
+            <Col lg="6">
+              <Image className="img-fluid" src={image} alt={altText} />
             </Col>
           </Row>
         </Container>
@@ -43,4 +43,4 @@ const ImageTextRight: React.FC<Props> = ({
   );
 };
 
-export default ImageTextRight;
+export default ImageTextLeft;

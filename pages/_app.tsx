@@ -6,12 +6,14 @@ import "../styles/breakpoints.scss";
 import "../styles/typography.scss";
 
 import Navigation from "../components/shared/nav/Navigation";
+import Footer from "../components/shared/footer/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navigation />
       <Component {...pageProps} />;
+      <Footer />
     </>
   );
 }
