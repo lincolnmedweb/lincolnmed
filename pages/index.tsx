@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -26,15 +26,17 @@ export default function Home() {
         title="Lincoln Medical Centre"
         subTitle="Family Health Organization"
         btnText="HealthMyself Login"
-        btnLink="#"
+        btnLink="https://portal.healthmyself.net/lincolnmedicalcentre/"
       />
       <ImageTextRight
         image={clinicImage}
+        bgColor="#F7FAFD"
         altText="our clinic"
         title="Our Clinic"
         text="Lincoln Medical Centre is comprised of a team of family physicians, nurses and support staff that work together to ensure that excellent quality patient care is provided in a respectful and compassionate environment."
         btnText="Learn More"
         btnLink="/about/"
+        targetValue="_self"
       />
       <ImageTextLeft
         image={staffImage}
@@ -46,11 +48,13 @@ export default function Home() {
       />
       <ImageTextRight
         image={healthImage}
+        bgColor="#F7FAFD"
         altText="HealthMyself"
         title="HealthMyself"
         text="Need text"
         btnText="HealthMyself Login"
-        btnLink="#"
+        btnLink="https://portal.healthmyself.net/lincolnmedicalcentre/"
+        targetValue="_blank"
       />
     </>
   );

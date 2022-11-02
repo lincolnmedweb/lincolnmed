@@ -7,20 +7,16 @@ import Image from "next/image";
 import styles from "./Navigation.module.scss";
 
 const Navigation = () => {
-  const [expanded, setExpanded] = useState(false);
   return (
     <div className={styles.nav}>
-      <Navbar expanded={expanded} expand="lg">
+      <Navbar expand="lg">
         <Container>
           <Navbar.Brand>
             <Link href="/">logo</Link>
           </Navbar.Brand>
-          <Navbar.Toggle
-            onClick={() => setExpanded(expanded ? false : "expanded")}
-            aria-controls="basic-navbar-nav"
-          />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto" onClick={() => setExpanded(false)}>
+            <Nav className="ms-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/mission/">
                   Mission Statement

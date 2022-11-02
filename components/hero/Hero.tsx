@@ -16,15 +16,15 @@ const Hero: React.FC<Props> = ({ title, subTitle, btnLink, btnText }) => {
       <section className={styles.hero}>
         <Container>
           <Row>
-            <div className="box">
-              <Col lg="12">
-                <h1 className={styles.hero__title}>{title}</h1>
-                <h2 className={styles.hero__subtitle}>{subTitle}</h2>
-                <Link href={btnLink}>
-                  <Button className={styles.hero__button}>{btnText}</Button>
+            <Col lg="12">
+              <div className={styles.box}>
+                <h1>{title}</h1>
+                <h2>{subTitle}</h2>
+                <Link href={btnLink} target="_blank">
+                  <Button>{btnText}</Button>
                 </Link>
-              </Col>
-            </div>
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>

@@ -8,31 +8,33 @@
   text-align: center;
   @include bp-tablet-sm {
     margin-top: 0px;
-    padding: 60px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
   }
-  &__title {
-    color: rgba($white, 0.6);
-    font-size: 16px;
-    font-weight: 300;
+  .box {
+    border: 1px solid $light-blue;
+    padding: 60px;
+    width: 80%;
+    margin: 0 auto;
     @include bp-tablet-sm {
-      font-size: 18px;
+      padding: 20px;
     }
-  }
-  &__biz {
-    color: $white;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: -10px;
-    @include bp-tablet-sm {
+    h1 {
+      color: $white;
+      font-size: 74px;
+      margin-bottom: 10px;
+      @include bp-tablet-sm {
+        font-size: 20px;
+      }
+    }
+    h2 {
+      color: rgba($white, 0.8);
+      font-weight: 300;
       font-size: 26px;
-    }
-  }
-  &__subtitle {
-    color: $white;
-    font-size: 80px;
-    margin-bottom: 20px;
-    @include bp-tablet-sm {
-      font-size: 36px;
+      margin-bottom: 30px;
+      @include bp-tablet-sm {
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
     }
   }
 }

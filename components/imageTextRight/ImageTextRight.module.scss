@@ -2,10 +2,14 @@
 @import "../../styles/breakpoints.scss";
 
 .imageTextRight {
-  background-size: cover;
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
     margin-top: 0px;
-    padding: 60px 0px 60px 0px;
+    padding: 40px 0px 40px 0px;
+  }
+  img {
+    @include bp-tablet-sm {
+      margin-bottom: 20px;
+    }
   }
 }

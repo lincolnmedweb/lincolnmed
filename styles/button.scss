@@ -1,0 +1,18 @@
+@import "/styles/breakpoints.scss";
+@import "/styles/variables.scss";
+
+.btn-primary {
+  background-color: $light-blue;
+  border: none;
+  border-radius: 0;
+  padding: 20px 40px 20px 40px;
+  font-size: 18px;
+  &:hover {
+    background-color: $dark-blue;
+  }
+  @include bp-tablet-sm {
+    font-size: 16px;
+    padding: 16px;
+    width: 100%;
+  }
+}
