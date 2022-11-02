@@ -5,6 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "next/image";
 
 import styles from "./Navigation.module.scss";
+import logo from "../../../public/logo.jpg";
 
 const Navigation = () => {
   return (
@@ -12,7 +13,9 @@ const Navigation = () => {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand>
-            <Link href="/">logo</Link>
+            <Link href="/">
+              <Image src={logo} className="img-fluid" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
