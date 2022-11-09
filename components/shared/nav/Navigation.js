@@ -9,7 +9,7 @@ import logo from "../../../public/logo.jpg";
 const Navigation = () => {
   return (
     <div className={styles.nav}>
-      <Navbar expand="lg">
+      <Navbar expand="lg" className="fixed-top">
         <Container>
           <Navbar.Brand>
             <Link href="/">
@@ -32,11 +32,16 @@ const Navigation = () => {
                 <NavDropdown.Item href="/team/">Our Team</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/resources/">Patient Resources</Nav.Link>
-              <Nav.Link href="/resources/">HealthMyself</Nav.Link>
+              <Nav.Link
+                target="_blank"
+                href="https://portal.healthmyself.net/lincolnmedicalcentre/#/"
+              >
+                HealthMyself
+              </Nav.Link>
               <NavDropdown title="Clinics" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/diabetes/">Diabetes</NavDropdown.Item>
-                <NavDropdown.Item href="/food-clinics/">
-                  Food Clinics
+                <NavDropdown.Item href="/flu-clinics/">
+                  Flu Clinics
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/contact/">Contact Us</Nav.Link>

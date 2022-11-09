@@ -6,8 +6,9 @@
   background-size: cover;
   padding: 200px 0px 200px 0px;
   text-align: center;
+  margin-top: 60px;
   @include bp-tablet-sm {
-    margin-top: 0px;
+    margin-top: 80px;
     padding: 40px 0px 40px 0px;
   }
   .box {
