@@ -35,7 +35,7 @@ export default function Home() {
         title="Our Clinic"
         text="Lincoln Medical Centre is comprised of a team of family physicians, nurses and support staff that work together to ensure that excellent quality patient care is provided in a respectful and compassionate environment."
         btnText="Learn More"
-        btnLink="/about/"
+        btnLink="/mission/"
         targetValue="_self"
       />
       <ImageTextLeft
@@ -44,7 +44,7 @@ export default function Home() {
         title="Our Staff"
         text="need text"
         btnText="View Staff"
-        btnLink="/staff/"
+        btnLink="/team/"
       />
       <ImageTextRight
         image={healthImage}

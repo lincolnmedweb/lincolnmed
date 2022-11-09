@@ -37,9 +37,7 @@ export default function Contact() {
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11639.142857263!2d-79.476277!3d43.172022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5776c75a56e4a954!2slincoln%20medical%20centre!5e0!3m2!1sen!2sca!4v1668006353640!5m2!1sen!2sca"
                 width="600"
                 height="450"
-                allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </Col>
           </Row>
