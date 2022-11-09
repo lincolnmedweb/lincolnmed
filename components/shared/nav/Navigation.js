@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "next/image";
