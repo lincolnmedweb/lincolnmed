@@ -105,13 +105,6 @@ export default function Resources() {
           <Row>
             <Col lg="12">
               <p>
-                Our Nurses - We have 3 full-time nurses here at the clinic, you
-                will see them assisting the doctors with well-baby visits and
-                physicals. The nurses also perform other duties like various
-                injections, ear flushing, suture/staple removal, applying holter
-                monitors, and cryo therapy for warts.
-              </p>
-              <p>
                 Our Dietician - The Dietitian will help you manage blood sugar
                 while also eating well. During your appointment you will learn
                 about carbohydrates, proteins and how to read labels. You will
@@ -124,29 +117,6 @@ export default function Resources() {
                 self-management. We also help to educate and assist patients on
                 safe insulin therapy. The Diabetic Nurse promotes foot health
                 through screening and education.
-              </p>
-              <p>
-                Respiratory Therapist - Our COPD program empowers your family
-                doctor to deliver integrated, evidence-based care for improved
-                chronic disease management that includes self-management,
-                education, skills training, and case management. It is a
-                complete knowledge translation and interdisciplinary program
-                that is led by a Certified Respiratory Educator who works
-                collaboratively with the patient, and their family doctor to
-                deliver continuous and improved quality health outcomes. Our
-                COPD program is a “one-stop shopping” solution for patients who
-                receive diagnostic testing, a bundle of personalized
-                evidence-based best practices delivered by the team they trust,
-                at Lincoln Medical Centre. Access to other interdisciplinary
-                team members is arranged as required.
-              </p>
-              <p>
-                Health Myself Patient Portal - Health Myself is an online portal
-                available to provide patients with easier access to their
-                healthcare. Health Myself allows your doctor to securely send
-                results, reports and messages directly to your email. Health
-                Myself also allows patients to book appointments with their
-                doctor easily online.
               </p>
             </Col>
           </Row>

@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import InnerHero from "../components/innerHero/innerHero";
+import contentImage from "../public/health-myself.jpg";
 
 export default function FluClinics() {
   return (
@@ -17,14 +19,21 @@ export default function FluClinics() {
       <InnerHero title="Flu Clinics" />
       <section className="inner-content">
         <Container>
-          <Row>
-            <Col lg="12">
+          <Row className="d-flex align-items-center">
+            <Col lg="6">
               <p>
                 Flu Clinics are typically offered mid October to mid November.
                 Please call the office to book a time. After November we still
                 can provide the flu vaccine until April 1st. Book an individual
                 needle time by calling the office.
               </p>
+            </Col>
+            <Col lg="6">
+              <Image
+                className="img-fluid"
+                src={contentImage}
+                alt="flu clinic"
+              />
             </Col>
           </Row>
         </Container>

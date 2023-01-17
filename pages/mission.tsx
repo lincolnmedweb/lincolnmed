@@ -65,7 +65,7 @@ export default function Mission() {
                   confidentiality, be a protector of private information
                 </li>
                 <li>
-                  Tolerance :we will not judge others regardless of their
+                  Tolerance: we will not judge others regardless of their
                   situation or opinions. We will be understanding and
                   compassionate when dealing with patients and peers.
                 </li>

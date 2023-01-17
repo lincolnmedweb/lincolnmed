@@ -51,7 +51,14 @@ export default function Home() {
         bgColor="#F7FAFD"
         altText="HealthMyself"
         title="HealthMyself"
-        text="Need text"
+        text="
+        Health Myself Patient Portal - Health Myself is an online portal
+        available to provide patients with easier access to their
+        healthcare. Health Myself allows your doctor to securely send
+        results, reports and messages directly to your email. Health
+        Myself also allows patients to book appointments with their
+        doctor easily online.
+      "
         btnText="HealthMyself Login"
         btnLink="https://portal.healthmyself.net/lincolnmedicalcentre/"
         targetValue="_blank"
