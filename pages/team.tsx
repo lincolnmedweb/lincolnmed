@@ -21,6 +21,7 @@ export default function Mission() {
         <Container>
           <Row>
             <Col lg="6">
+              <h2>Physicians</h2>
               <ul>
                 <li>Dr. Aliu</li>
                 <li>Dr. Cescon</li>
@@ -28,8 +29,8 @@ export default function Mission() {
                 <li>Dr. Habing</li>
                 <li>Dr. Ireland</li>
                 <li>Dr. Jeffery</li>
-                <li>Dr.Kavanagh</li>
                 <li>Dr. Laverdiere</li>
+                <li>Office Manager - Jade Neilson</li>
               </ul>
             </Col>
             <Col lg="6">

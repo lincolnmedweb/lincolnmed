@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 import InnerHero from "../components/innerHero/innerHero";
-import contentImage from "../public/health-myself.jpg";
+import contentImage from "../public/health-logo.jpg";
 
 export default function FluClinics() {
   return (

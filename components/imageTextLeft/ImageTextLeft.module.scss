@@ -3,6 +3,7 @@
 
 .imageTextLeft {
   padding: 120px 0px 120px 0px;
+  background: $grey;
   @include bp-tablet-sm {
     margin-top: 0px;
     padding: 40px 0px 40px 0px;

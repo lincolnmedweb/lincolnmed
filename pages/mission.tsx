@@ -19,23 +19,6 @@ export default function Mission() {
         <Container>
           <Row>
             <Col lg="12">
-              <p>
-                Lincoln Medical Centre is comprised of a team of family
-                physicians, nurses and support staff that work together to
-                ensure that excellent quality patient care is provided in a
-                respectful and compassionate environment.
-              </p>
-              <p>
-                The Ontario Health Insurance Plan (OHIP) provides coverage for a
-                vast majority of physician services; however, there are some
-                services that are not covered.
-              </p>
-              <p>
-                This policy outlines how we protect the privacy of your personal
-                information and medical record. Everyone working for this office
-                is required to adhere to the protections described in this
-                policy
-              </p>
               <h2>Mission Statement</h2>
               <p>
                 Lincoln Medical Centre is comprised of a team of family

@@ -30,7 +30,7 @@ export default function Home() {
       />
       <ImageTextRight
         image={clinicImage}
-        bgColor="#F7FAFD"
+        bgColor="#FFF"
         altText="our clinic"
         title="Our Clinic"
         text="Lincoln Medical Centre is comprised of a team of family physicians, nurses and support staff that work together to ensure that excellent quality patient care is provided in a respectful and compassionate environment."
@@ -42,13 +42,16 @@ export default function Home() {
         image={staffImage}
         altText="Our Staff"
         title="Our Staff"
-        text="need text"
+        text="Lincoln Medical Centre is comprised of a team of family
+        physicians, nurses and support staff that work together to
+        ensure that excellent quality patient care is provided in a
+        respectful and compassionate environment."
         btnText="View Staff"
         btnLink="/team/"
       />
       <ImageTextRight
         image={healthImage}
-        bgColor="#F7FAFD"
+        bgColor="#FFF"
         altText="HealthMyself"
         title="HealthMyself"
         text="

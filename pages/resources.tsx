@@ -102,24 +102,6 @@ export default function Resources() {
               </a>
             </Col>
           </Row>
-          <Row>
-            <Col lg="12">
-              <p>
-                Our Dietician - The Dietitian will help you manage blood sugar
-                while also eating well. During your appointment you will learn
-                about carbohydrates, proteins and how to read labels. You will
-                also learn about appropriate meal spacing and snacks if needed.{" "}
-              </p>
-              <p>
-                Our Diabetic Nurse - The Diabetic Nurse provides guidance in
-                managing blood glucose levels while working with patients to
-                build competency to dealing with daily challenges of diabetes
-                self-management. We also help to educate and assist patients on
-                safe insulin therapy. The Diabetic Nurse promotes foot health
-                through screening and education.
-              </p>
-            </Col>
-          </Row>
         </Container>
       </section>
     </>
