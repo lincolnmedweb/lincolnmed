@@ -30,6 +30,7 @@ export default function Mission() {
                 <li>Dr. Ireland</li>
                 <li>Dr. Jeffery</li>
                 <li>Dr. Laverdiere</li>
+                <br />
                 <li>Office Manager - Jade Neilson</li>
               </ul>
             </Col>
