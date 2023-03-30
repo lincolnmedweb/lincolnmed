@@ -20,9 +20,6 @@ const Hero: React.FC<Props> = ({ title, subTitle, btnLink, btnText }) => {
               <div className={styles.box}>
                 <h1>{title}</h1>
                 <h2>{subTitle}</h2>
-                <Link href={btnLink} target="_blank">
-                  <Button>{btnText}</Button>
-                </Link>
               </div>
             </Col>
           </Row>
