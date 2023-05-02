@@ -9,7 +9,7 @@ export default function FluClinics() {
   return (
     <>
       <Head>
-        <title>Flu Clinics | Lincoln Medical Center</title>
+        <title>Flu Clinics | Lincoln Medical Centre</title>
         <meta
           name="description"
           content="Our nursing staff at Lincoln Medical Centre is involved in ongoing professional education, including training in Flu CFlu Clinics are typically offered mid October to mid November several times during the week. Please call the office to book a time.linics. "
@@ -22,18 +22,13 @@ export default function FluClinics() {
           <Row className="d-flex align-items-center">
             <Col lg="6">
               <p>
-                Flu Clinics are typically offered mid October to mid November.
-                Please call the office to book a time. After November we still
-                can provide the flu vaccine until April 1st. Book an individual
-                needle time by calling the office.
+                Flu Clinics are typically offered mid October to mid November. Please call the office to book a time.
+                After November we still can provide the flu vaccine until April 1st. Book an individual needle time by
+                calling the office.
               </p>
             </Col>
             <Col lg="6">
-              <Image
-                className="img-fluid"
-                src={contentImage}
-                alt="flu clinic"
-              />
+              <Image className="img-fluid" src={contentImage} alt="flu clinic" />
             </Col>
           </Row>
         </Container>

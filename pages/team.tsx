@@ -9,7 +9,7 @@ export default function Mission() {
   return (
     <>
       <Head>
-        <title>Our Team | Lincoln Medical Center</title>
+        <title>Our Team | Lincoln Medical Centre</title>
         <meta
           name="description"
           content="Lincoln Medical Centre's team of physicians are ready to help. Click here to learn more."

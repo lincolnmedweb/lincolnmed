@@ -9,7 +9,7 @@ export default function Diabetes() {
   return (
     <>
       <Head>
-        <title>Diabetes | Lincoln Medical Center</title>
+        <title>Diabetes | Lincoln Medical Centre</title>
         <meta
           name="description"
           content="Our nursing staff at Lincoln Medical Centre is involved in ongoing professional education, including training in diabetes. "
@@ -22,11 +22,9 @@ export default function Diabetes() {
           <Row>
             <Col lg="6">
               <p>
-                Our nursing staff at Lincoln Medical Centre is involved in
-                ongoing professional education, including training in diabetes.
-                You will find them a great resource. To complement this, Public
-                Health provides a Diabetic Team consisting of a diabetic nurse
-                specialist, and dietician every Friday.
+                Our nursing staff at Lincoln Medical Centre is involved in ongoing professional education, including
+                training in diabetes. You will find them a great resource. To complement this, Public Health provides a
+                Diabetic Team consisting of a diabetic nurse specialist, and dietician every Friday.
               </p>
             </Col>
             <Col lg="6">
@@ -39,21 +37,18 @@ export default function Diabetes() {
             <Col lg="6">
               <h2>Our Diabetic Dietician</h2>
               <p>
-                The Dietician will help you manage blood sugar while also eating
-                well. During your appointment you will learn about
-                carbohydrates, proteins and how to read labels. You will also
-                learn about appropriate meal spacing and snacks if needed.
+                The Dietician will help you manage blood sugar while also eating well. During your appointment you will
+                learn about carbohydrates, proteins and how to read labels. You will also learn about appropriate meal
+                spacing and snacks if needed.
               </p>
             </Col>
             <Col lg="6">
               <h2>Our Diabetic Nurse</h2>
               <p>
-                The Diabetic Nurse provides guidance in managing blood glucose
-                levels while working with patients to build competency to
-                dealing with daily challenges of diabetes self-management. We
-                also help to educate and assist patients on safe insulin
-                therapy. The Diabetic Nurse promotes foot health through
-                screening and education.
+                The Diabetic Nurse provides guidance in managing blood glucose levels while working with patients to
+                build competency to dealing with daily challenges of diabetes self-management. We also help to educate
+                and assist patients on safe insulin therapy. The Diabetic Nurse promotes foot health through screening
+                and education.
               </p>
             </Col>
           </Row>

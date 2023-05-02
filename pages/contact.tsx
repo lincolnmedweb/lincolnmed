@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us | Lincoln Medical Center</title>
+        <title>Contact Us | Lincoln Medical Centre</title>
         <meta
           name="description"
           content="Lincoln Medical Centre's can you help you with your needs. Contact us today."
