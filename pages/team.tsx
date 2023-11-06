@@ -25,7 +25,7 @@ export default function Mission() {
               <ul>
                 <li>Dr. Aliu</li>
                 <li>Dr. Cescon</li>
-                <li>Dr. Dulymamode</li>
+                <li>Dr. Olubowale</li>
                 <li>Dr. Habing</li>
                 <li>Dr. Ireland</li>
                 <li>Dr. Jeffery</li>

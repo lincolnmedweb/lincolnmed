@@ -20,7 +20,7 @@ export default function Contact() {
           <Row>
             <Col lg="6">
               <h2>Address</h2>
-              <p>4413 Ontario St. Beamsville, ON L0R 1B5</p>
+              <p>4413 Ontario St. Beamsville, ON L3J 0A4</p>
 
               <h2>Phone</h2>
               <p> 905-563-1212</p>

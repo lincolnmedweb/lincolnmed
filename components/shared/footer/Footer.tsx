@@ -11,7 +11,7 @@ const Footer = () => {
             <Col lg="4">
               <h5>Address</h5>
               <p>
-                4413 Ontario St, Beamsville,
+                4413 Ontario St. Beamsville,
                 <br />
                 ON L3J 0A4
               </p>
