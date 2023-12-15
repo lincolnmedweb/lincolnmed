@@ -18,7 +18,8 @@ const Footer = () => {
             </Col>
             <Col lg="4">
               <h5>Hours</h5>
-              <p>Monday to Friday 8:30am - 8:00pm</p>
+              <p>Monday to Thursday 8:30am - 8:00pm</p>
+              <p>Friday 8:30am - 4:30pm</p>
               <p>Saturday 8:00am - 11:00am</p>
             </Col>
             <Col lg="4">

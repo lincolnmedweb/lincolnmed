@@ -29,7 +29,8 @@ export default function Contact() {
               <p>905-563-4404</p>
 
               <h2>Hours of Operation</h2>
-              <p>Monday to Friday 8:30am-8:00pm</p>
+              <p>Monday to Thursday 8:30am-8:00pm</p>
+              <p>Friday 8:30am - 4:30pm</p>
               <p>Saturday 8:00am-11:00am</p>
             </Col>
             <Col lg="6">

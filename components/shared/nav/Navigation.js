@@ -20,30 +20,20 @@ const Navigation = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <NavDropdown title="About" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/mission/">
-                  Mission Statement
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/family-health/">
-                  Family Health Organization
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/privacy/">
-                  Privacy Policy
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/mission/">Mission Statement</NavDropdown.Item>
+                <NavDropdown.Item href="/family-health/">Family Health Organization</NavDropdown.Item>
+                <NavDropdown.Item href="/privacy/">Privacy Policy</NavDropdown.Item>
                 <NavDropdown.Item href="/team/">Our Team</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/resources/">Patient Resources</Nav.Link>
-              <Nav.Link
-                target="_blank"
-                href="https://portal.healthmyself.net/lincolnmedicalcentre/#/"
-              >
+              <Nav.Link target="_blank" href="https://portal.healthmyself.net/lincolnmedicalcentre/#/">
                 HealthMyself
               </Nav.Link>
               <NavDropdown title="Clinics" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/diabetes/">Diabetes</NavDropdown.Item>
-                <NavDropdown.Item href="/flu-clinics/">
-                  Flu Clinics
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/flu-clinics/">Flu Clinics</NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="/newsletter/">Newsletter</Nav.Link>
               <Nav.Link href="/contact/">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
