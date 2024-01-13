@@ -31,7 +31,7 @@ export default function Contact() {
               <h2>Hours of Operation</h2>
               <p>Monday to Thursday 8:30am-8:00pm</p>
               <p>Friday 8:30am - 4:30pm</p>
-              <p>Saturday 8:00am-11:00am</p>
+              <p>Saturday & Sunday 8:00am-11:00am</p>
             </Col>
             <Col lg="6">
               <iframe
