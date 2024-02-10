@@ -32,11 +32,39 @@ const Footer = () => {
           </Row>
           <Row>
             <Col lg="12">
-              <p>
-                <a href="https://infused.agency" target="_blank">
-                  Niagara web design
-                </a>{" "}
-                by Infused Agency
+              <p className="infused">
+                <br />
+                <br />
+                <p className="infused">
+                  Website by Infused Agency <br />
+                  <a href="https://infused.agency" target="_blank" title="Niagara Web Design">
+                    Niagara web design
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency" target="_blank" title="Web Design Grimsby">
+                    Web Design Grimsby
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/beamsville-web-design" target="_blank" title="Web Design Beamsville">
+                    Web Design Beamsville
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/web-design-welland" target="_blank" title="Web Design Welland">
+                    Web Design Welland
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/fort-erie-web-design" target="_blank" title="Web Design Fort Erie">
+                    Web Design Fort Erie
+                  </a>{" "}
+                  |{" "}
+                  <a
+                    href="https://infused.agency/port-colborne-web-design"
+                    target="_blank"
+                    title="Web Design Port Colborne"
+                  >
+                    Web Design Port Colborne
+                  </a>
+                </p>
               </p>
             </Col>
           </Row>

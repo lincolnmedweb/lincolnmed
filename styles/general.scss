@@ -48,12 +48,24 @@ img {
     }
   }
   .blue {
-    border: 10px solid $light-blue;
+    border: 10px solid $dark-blue;
   }
   .clinic {
-    background: $light-blue;
-    ul {
-      color: $white;
-    }
+    border: 10px solid $dark-blue;
   }
+}
+
+.banner {
+  background: $light-blue;
+  &:hover {
+    cursor: pointer;
+  }
+  p {
+    font-size: 16px;
+    color: $white;
+  }
+}
+
+.infused {
+  font-size: 12px;
 }
