@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { useRef, useState } from "react";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "next/image";
 
@@ -7,9 +8,34 @@ import styles from "./Navigation.module.scss";
 import logo from "../../../public/logo.jpg";
 
 const Navigation = () => {
+  const [visible, setVisible] = useState(true);
+
+  const idRef = useRef(null);
+
+  const removeBanner = () => {
+    setVisible((prev) => !prev);
+    if (idRef.current) {
+      idRef.current.classList.add("fixed-top");
+    }
+  };
+
   return (
     <div className={styles.nav}>
-      <Navbar expand="lg" className="fixed-top">
+      {visible && (
+        <div className="banner">
+          <Container>
+            <Row className="text-center">
+              <Col lg="12">
+                <p onClick={removeBanner}>
+                  We no longer offer virtual care appointments to non-rostered patients. <sup>X</sup>
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      )}
+
+      <Navbar expand="lg" id="nav" ref={idRef}>
         <Container>
           <Navbar.Brand>
             <Link href="/">
