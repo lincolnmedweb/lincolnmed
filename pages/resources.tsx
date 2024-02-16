@@ -18,60 +18,87 @@ export default function Resources() {
       <section className="inner-content">
         <Container>
           <Row>
-            <Col lg="6">
+            <Col lg="12">
               <h2>Public Health Links</h2>
-              <p>Vaccines:</p>
-              <a href="https://www.niagararegion.ca/health/vaccinations/default.aspx" target="_blank">
-                https://www.niagararegion.ca/health/vaccinations/default.aspx
-              </a>
-              <p>Pregnancy:</p>
-              <a href="https://www.niagararegion.ca/parents/becoming-a-parent/default.aspx" target="_blank">
-                https://www.niagararegion.ca/parents/becoming-a-parent/default.aspx
-              </a>
-              <p>Parenting:</p>
-              <a href="https://www.niagararegion.ca/parents/default.aspx" target="_blank">
-                https://www.niagararegion.ca/parents/default.aspx
-              </a>
-              <p>School Health:</p>
-              <a href="https://www.niagararegion.ca/health/schools/default.aspx" target="_blank">
-                https://www.niagararegion.ca/health/schools/default.aspx
-              </a>
-              <p>Dental Health:</p>
-              <a href="https://www.niagararegion.ca/living/health_wellness/dental/default.aspx" target="_blank">
-                https://www.niagararegion.ca/living/health_wellness/dental/default.aspx
-              </a>
-              <p>Mental Health:</p>
-              <a href="https://www.niagararegion.ca/living/health_wellness/mentalhealth/default.aspx" target="_blank">
-                https://www.niagararegion.ca/living/health_wellness/mentalhealth/default.aspx
-              </a>
-              <p>Quitting Smoking:</p>
-              <a href="https://www.niagararegion.ca/health/substances/tobacco/quitting-smoking.aspx" target="_blank">
-                https://www.niagararegion.ca/health/substances/tobacco/quitting-smoking.aspx
-              </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="6">
+              <h4>
+                <a href="https://www.niagararegion.ca/health/vaccinations/default.aspx" target="_blank">
+                  Vaccines
+                </a>
+              </h4>
+              <p>
+                Reporting vaccinations or requesting records from Public Health as well as information regarding vaccine
+                safety, vaccination clinics and vaccine requirements for school or daycare.
+              </p>
+              <h4>
+                <a href="https://www.niagararegion.ca/parents/becoming-a-parent/default.aspx" target="_blank">
+                  Pregnancy and Parenting
+                </a>
+              </h4>
+              <p>
+                Clinics and classes spanning from prenatal to postpartum support. Find resources for raising children
+                with access to free parenting classes.
+              </p>
+
+              <h4>
+                <a href="https://www.niagararegion.ca/living/health_wellness/dental/default.aspx" target="_blank">
+                  Dental Health
+                </a>
+              </h4>
+              <p>
+                Dental care programs for all ages. How to prevent cavities, screening forms for school and schedules for
+                mobile dental clinics for youth across the Niagara region.
+              </p>
+              <h4>
+                <a href="https://www.niagararegion.ca/health/substances/tobacco/quitting-smoking.aspx" target="_blank">
+                  Quitting Smoking
+                </a>
+              </h4>
+              <p>Free help to quit smoking. Counseling and access to free nicotine replacement therapy</p>
+              <h4>
+                <a href="https://www.niagararegion.ca/living/health_wellness/mentalhealth/default.aspx" target="_blank">
+                  Mental Health
+                </a>
+              </h4>
+              <p>Adult and youth mental health services, eligibility and referrals.</p>
             </Col>
             <Col lg="6">
-              <h2>Crisis Intervention</h2>
+              <h4>
+                <a href="#" target="_blank">
+                  Crisis Intervention
+                </a>
+              </h4>
               <p>
-                Distress Center Niagara: In Grimsby/ Beamsville, call 905-563-6674, or go to{" "}
+                These are <strong>not</strong> rapid response services. For life-threatening emergencies call 911.
+              </p>
+              <h4>
                 <a href="http://distresscentreniagara.com/" target="_blank">
-                  http://distresscentreniagara.com/
+                  Distress Centre Niagara
                 </a>
-              </p>
+              </h4>
               <p>
-                COAST Niagara (Crisis Outreach and Support Team): 1-866-550-5205 or{" "}
-                <a href="http://coastniagara.ca/" target="_blank">
-                  http://coastniagara.ca/
+                Immediate help 24 hour crisis line for Grimsby, Beamsville region call{" "}
+                <a href="tel:905-563-6674">905-563-6674</a>. For text support between 2 p.m. and 2 a.m. EST, text
+                “support” to 258258.
+              </p>
+              <h4>
+                <a href="https://988.ca" target="_blank">
+                  9-8-8
                 </a>
-              </p>
+              </h4>
+              <p>Canada wide Suicide Crisis Helpline call or text 988</p>
+              <h4>
+                <a href="https://niagara.cmha.ca/brochure/i-am-in-crisis/ " target="_blank">
+                  COAST Niagara (Crisis Outreach and Support Team)
+                </a>
+              </h4>
               <p>
-                COAST provides services to people in the Niagara Region who are in crisis and have a mental health
-                concern. The program is a partnership between Distress Centre Niagara, Canadian Mental Health
-                Association Niagara, Niagara Health System, Niagara Regional Police Services.
+                24-hours a day for individuals 16 years and older experiencing a mental health crisis in the Niagara
+                Region <a href="tel:1-866-550-5205">1-866-550-5205</a>
               </p>
-              <h2>Nutrition</h2>
-              <a href="http://healthycanadians.gc.ca/eating-nutrition/" target="_blank">
-                http://healthycanadians.gc.ca/eating-nutrition/
-              </a>
             </Col>
           </Row>
         </Container>
