@@ -38,7 +38,7 @@ const Navigation = () => {
       <Navbar expand="lg" id="nav" ref={idRef}>
         <Container>
           <Navbar.Brand>
-            <Link href="/">
+            <Link href="/" className="logo-link">
               <Image src={logo} className="img-fluid" />
             </Link>
           </Navbar.Brand>

@@ -9,8 +9,12 @@
     padding: 0px;
   }
   img {
+    width: 360px;
     &:hover {
       cursor: pointer;
+    }
+    @include bp-tablet {
+      width: 200px;
     }
   }
   a {
