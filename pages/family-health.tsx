@@ -26,10 +26,16 @@ export default function FamilyHealth() {
                     <h2>Test Results Turnaround Times</h2>
                   </Accordion.Header>
                   <Accordion.Body>
-                    Due to the overwhelming number of test results received each day, patients will be contacted to book
-                    a follow-up visit to review test results with a doctor, if necessary. If you do not receive a call
-                    and still would like to review the test results with your doctor, schedule an appointment at your
-                    convenience.{" "}
+                    <p>
+                      Due to the overwhelming number of test results received each day, patients will be contacted to
+                      book a follow-up visit to review test results with a doctor, if necessary. If you do not receive a
+                      call and still would like to review the test results with your doctor, schedule an appointment at
+                      your convenience.
+                    </p>
+                    <p>
+                      Please allow 1-4 weeks for lab or imaging results. Times may vary for results, based on lab or
+                      clinic backlog.{" "}
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">

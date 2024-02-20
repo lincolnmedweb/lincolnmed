@@ -74,31 +74,32 @@ export default function Resources() {
               <p>
                 These are <strong>not</strong> rapid response services. For life-threatening emergencies call 911.
               </p>
-              <h4>
-                <a href="http://distresscentreniagara.com/" target="_blank">
-                  Distress Centre Niagara
-                </a>
-              </h4>
-              <p>
-                Immediate help 24 hour crisis line for Grimsby, Beamsville region call{" "}
-                <a href="tel:905-563-6674">905-563-6674</a>. For text support between 2 p.m. and 2 a.m. EST, text
-                “support” to 258258.
-              </p>
-              <h4>
-                <a href="https://988.ca" target="_blank">
-                  9-8-8
-                </a>
-              </h4>
-              <p>Canada wide Suicide Crisis Helpline call or text 988</p>
-              <h4>
-                <a href="https://niagara.cmha.ca/brochure/i-am-in-crisis/ " target="_blank">
-                  COAST Niagara (Crisis Outreach and Support Team)
-                </a>
-              </h4>
-              <p>
-                24-hours a day for individuals 16 years and older experiencing a mental health crisis in the Niagara
-                Region <a href="tel:1-866-550-5205">1-866-550-5205</a>
-              </p>
+              <ul>
+                <li>
+                  <a href="http://distresscentreniagara.com/" target="_blank">
+                    <strong>Distress Centre Niagara</strong>
+                  </a>
+                  <br />
+                  Immediate help 24 hour crisis line for Grimsby, Beamsville region call{" "}
+                  <a href="tel:905-563-6674">905-563-6674</a>. For text support between 2 p.m. and 2 a.m. EST, text
+                  “support” to 258258.
+                </li>
+                <li>
+                  <a href="https://988.ca" target="_blank">
+                    <strong>9-8-8</strong>
+                  </a>
+                  <br />
+                  Canada wide Suicide Crisis Helpline call or text 988
+                </li>
+                <li>
+                  <a href="https://niagara.cmha.ca/brochure/i-am-in-crisis/ " target="_blank">
+                    <strong>COAST Niagara (Crisis Outreach and Support Team)</strong>
+                  </a>
+                  <br />
+                  24-hours a day for individuals 16 years and older experiencing a mental health crisis in the Niagara
+                  Region <a href="tel:1-866-550-5205">1-866-550-5205</a>
+                </li>
+              </ul>
             </Col>
           </Row>
         </Container>
