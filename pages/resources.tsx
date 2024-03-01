@@ -102,6 +102,67 @@ export default function Resources() {
               </ul>
             </Col>
           </Row>
+          <br />
+          <Row>
+            <Col lg="12">
+              <h2 className="text-center">Knowing Your Health Care Options</h2>
+            </Col>
+          </Row>
+          <Row className="healthcare-options">
+            <Col lg="6">
+              <div className="heading-green">
+                <h3>When to go to your Doctor's Office</h3>
+              </div>
+              <div className="card">
+                <ul>
+                  <li>Abdominal pain (under age 50)</li>
+                  <li>Allergies</li>
+                  <li>Bites</li>
+                  <li>Diarrhea</li>
+                  <li>Minor cuts or tears</li>
+                  <li>Cough, cold, flu symptoms</li>
+                  <li>Sore throat</li>
+                  <li>Minor head injuries (under age 65)</li>
+                  <li>Minor injuries</li>
+                  <li>Minor sprains and strains</li>
+                  <li>Minor burns</li>
+                  <li>Skin rashes</li>
+                  <li>Eye, nose, ear complaints</li>
+                  <li>Urinary tract infection</li>
+                </ul>
+              </div>
+            </Col>
+            <Col lg="6">
+              <h3 className="heading-red">When to go to an Emergency Department</h3>
+              <div className="card">
+                <ul>
+                  <li>Abdominal pain (over age 50)</li>
+                  <li>Chest pain or pressure</li>
+                  <li>Dizziness</li>
+                  <li>Fracture</li>
+                  <li>Early pregnancy complications (under 12 weeks)</li>
+                  <li>Numbness, weakness</li>
+                  <li>Severe bleeding</li>
+                  <li>Severe headaches</li>
+                  <li>Shortness of breath</li>
+                  <li>Trauma</li>
+                  <li>Unconsciousness</li>
+                  <li>Urgent mental health conditions, psychosis, or thoughts of harm to self or others.</li>
+                  <li>Vision loss</li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <p>
+                <strong>
+                  Patients requiring emergency medical assistance should call 9-1-1 or visit the hospital Emergency
+                  Department.
+                </strong>
+              </p>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>

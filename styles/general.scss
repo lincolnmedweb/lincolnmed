@@ -75,3 +75,23 @@ img {
     margin-bottom: 0px;
   }
 }
+
+.healthcare-options {
+  .heading-green {
+    background: $green;
+  }
+  .heading-red {
+    background: $red;
+    color: $white;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0px 20px 0px;
+    font-size: 24px;
+  }
+  .card {
+    padding: 20px;
+    border-radius: 0;
+  }
+}
