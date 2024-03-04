@@ -41,6 +41,12 @@ export default function Contact() {
                 Since 2013, our journey has been defined by a passion for empowering businesses through comprehensive
                 digital strategies, transforming online landscapes, and driving success in the competitive digital
                 realm.
+                <br />
+                <br />
+                <a href="https://infused.agency" target="_blank">
+                  Niagara Web Design
+                </a>{" "}
+                Website by Infused Agency
               </p>
             </Col>
             <Col lg="6">
