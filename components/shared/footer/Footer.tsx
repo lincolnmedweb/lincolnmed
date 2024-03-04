@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 import styles from "../footer/Footer.module.scss";
 
@@ -35,10 +36,7 @@ const Footer = () => {
               <p className="infused">
                 <br />
                 <br />
-                Website by Infused Agency <br />
-                <a href="https://infused.agency" target="_blank" title="Niagara Web Design">
-                  Niagara web design
-                </a>{" "}
+                Website by <Link href="/infused-agency">Infused Agency</Link>
               </p>
             </Col>
           </Row>
