@@ -45,12 +45,13 @@ export default function Newsletter() {
                 <em>Phone lines close 12 p.m. to 1 p.m. Monday to Friday.</em>
               </p>
               <p>
-                <strong>Saturday Urgent Care Clinic:</strong>
+                <strong>Saturday/Sunday Urgent Care Clinic:</strong>
               </p>
               <p>8 a.m. to 10:30 a.m.*</p>
               <p>
                 <em>
-                  Phone lines open 8 a.m. until 10 a.m. on Saturday. * hours may vary slightly. Please call the day of.
+                  Phone lines open 8 a.m. until 10 a.m. on Saturday and Sunday. * Hours may vary slightly. Please call
+                  the day of."
                 </em>
               </p>
             </Col>
