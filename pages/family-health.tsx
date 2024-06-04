@@ -74,17 +74,17 @@ export default function FamilyHealth() {
                       to send a request to your family doctor. New medication requests, changes or select medications
                       require an appointment.
                     </p>
-                    <p>Same day renewals now result in a $5 fee.</p>
+                    <p>Same day renewals now result in a $10 fee.</p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
-                    <h2>Transfering Your Medical Chart</h2>
+                    <h2>Transferring Your Medical Chart</h2>
                   </Accordion.Header>
                   <Accordion.Body>
                     <p>
                       A Medical Release Form must be signed to request medical chart information. Please note there is a
-                      fee of $40 for an individual or $80 for a family of two or more.
+                      fee of $60 for an individual or $100 for a family of two or more.
                     </p>
                   </Accordion.Body>
                 </Accordion.Item>

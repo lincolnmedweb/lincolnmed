@@ -66,7 +66,7 @@ export default function Newsletter() {
                   <li>Arrive 5 minutes before your appointment for check-in.</li>
                   <li>
                     Allow at least 1 - 2 weeks for med renewals. For most medications, your pharmacy is able to send a
-                    request to your family doctor. SAME DAY MED RENEWALS NOW RESULT IN A $5 FEE.
+                    request to your family doctor. SAME DAY MED RENEWALS NOW RESULT IN A $10 FEE.
                   </li>
                   <li>
                     Ensure your health card is up-to-date. Without a current health card, we are unable to book
