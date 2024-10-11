@@ -51,7 +51,7 @@ export default function Newsletter() {
               <p>
                 <em>
                   Phone lines open 8 a.m. until 10 a.m. on Saturday and Sunday. * Hours may vary slightly. Please call
-                  the day of."
+                  the day of.*
                 </em>
               </p>
             </Col>
