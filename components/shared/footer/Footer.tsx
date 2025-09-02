@@ -36,7 +36,7 @@ const Footer = () => {
               <p className="infused">
                 <br />
                 <br />
-                Website by <Link href="/infused-agency">Infused Agency</Link>
+                <a target="_blank" href="https://infused.agency">SEO Niagara</a>
               </p>
             </Col>
           </Row>

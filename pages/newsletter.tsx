@@ -1,9 +1,10 @@
 import Head from "next/head";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 import InnerHero from "../components/innerHero/innerHero";
 
 export default function Newsletter() {
+  const pdf = "/sept-newsletter.pdf";
   return (
     <>
       <Head>
@@ -17,6 +18,17 @@ export default function Newsletter() {
       <InnerHero title="Clinic Newsletter" />
       <section className="inner-content newsletter">
         <Container>
+          <Row className="text-center">
+            <Col lg="12" className="card blue">
+              <h2>Newsletter: Back-to-School Hygiene Made Simple</h2>
+              <p>Keep your kids healthy this school year with handwashing, safe lunches, good sleep, and up-to-date immunizations.</p>
+              <br/>
+              <a href={pdf} target="_blank" rel="noopener noreferrer">
+                <Button>View Newsletter</Button>
+              </a>
+            </Col>
+          </Row>
+          <br/>
           <Row>
             <Col lg="6">
               <h2>Welcome, Dr. Shipp!</h2>
