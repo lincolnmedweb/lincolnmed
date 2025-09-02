@@ -20,7 +20,7 @@ export default function Newsletter() {
         <Container>
           <Row className="text-center">
             <Col lg="12" className="card blue">
-              <h2>Newsletter: Back-to-School Hygiene Made Simple</h2>
+              <h2>Newsletter - Back-to-School Hygiene Made Simple</h2>
               <p>Keep your kids healthy this school year with handwashing, safe lunches, good sleep, and up-to-date immunizations.</p>
               <br/>
               <a href={pdf} target="_blank" rel="noopener noreferrer">
