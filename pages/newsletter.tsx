@@ -54,7 +54,7 @@ export default function Newsletter() {
               </p>
             </Col>
             <Col lg="6" className="card blue">
-              <h2>Office Hours</h2>
+              <h2>Office Hours - For LMC Patients Only</h2>
               <p>
                 <strong>Regular Hours:</strong>
               </p>
@@ -75,7 +75,9 @@ export default function Newsletter() {
                   Phone lines open 8 a.m. until 10 a.m. on Saturday and Sunday.
                   * Hours may vary slightly. Please call the day of.*
                 </em>
+                
               </p>
+              <p><em>Please note, we are not a walk-in clinic.</em></p>
             </Col>
           </Row>
           <Row className="pt-5">

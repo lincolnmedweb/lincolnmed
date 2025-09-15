@@ -1,9 +1,11 @@
 import Head from "next/head";
-import { Container, Row, Col, Accordion } from "react-bootstrap";
+import Link from "next/link";
+import { Container, Row, Col, Accordion, Button } from "react-bootstrap";
 
 import InnerHero from "../components/innerHero/innerHero";
 
 export default function FamilyHealth() {
+  const pdf = "/guidelines.pdf";
   return (
     <>
       <Head>
@@ -62,6 +64,7 @@ export default function FamilyHealth() {
                       <li>Debit</li>
                       <li>Cash</li>
                     </ul>
+                  <Link href={pdf} target="_blank"><Button>View Uninsured Services Fee as per OMA 2025 Guidelines</Button></Link>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
