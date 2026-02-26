@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className={styles.footer}>
         <Container>
           <Row>
-            <Col lg="4">
+            <Col lg="3">
               <h5>Address</h5>
               <p>
                 4413 Ontario St. Beamsville,
@@ -17,13 +17,16 @@ const Footer = () => {
                 ON L3J 0A4
               </p>
             </Col>
-            <Col lg="4">
-              <h5>Hours</h5>
-              <p>Monday to Thursday 8:30am - 8:00pm</p>
-              <p>Friday 8:30am - 4:30pm</p>
-              <p>Saturday & Sunday 8:00am - 10:30am</p>
+            <Col lg="3">
+              <h5>Clinic Hours</h5>
+              <p>Monday to Friday 8:00am-4:00pm</p>
             </Col>
-            <Col lg="4">
+            <Col lg="3">
+              <h5>Urgent Care Clinic for LMC Patients </h5>
+              <p>Monday to Friday 5:00pm-8:00pm</p>
+              <p>Saturday & Sunday 8:00am-10:30am</p>
+            </Col>
+            <Col lg="3">
               <h5>Contact</h5>
               <p>
                 Phone: <a href="tel:(905) 563 - 1212">(905) 563 - 1212</a>
@@ -36,7 +39,9 @@ const Footer = () => {
               <p className="infused">
                 <br />
                 <br />
-                <a target="_blank" href="https://infused.agency">SEO Niagara</a>
+                <a target="_blank" href="https://infused.agency">
+                  SEO Niagara
+                </a>
               </p>
             </Col>
           </Row>
