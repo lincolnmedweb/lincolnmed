@@ -23,7 +23,7 @@ const Footer = () => {
             </Col>
             <Col lg="3">
               <h5>Urgent Care Clinic for LMC Patients </h5>
-              <p>Monday to Friday 5:00pm-8:00pm</p>
+              <p>Monday to Thursday 5:00pm-8:00pm</p>
               <p>Saturday & Sunday 8:00am-10:30am</p>
             </Col>
             <Col lg="3">
